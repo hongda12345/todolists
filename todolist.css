@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.box{
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+
+}
+.box input{
+    width: 100%;
+    height: 30px;
+    margin: 5px auto;
+    padding:2px 5px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    border:1px solid #0cbbee;
+}
+.list{
+    margin-top: 10px;
+    width: 100%;
+}
+.list li{
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px dashed #888;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.list li .opt{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    margin: 7px 10px;
+    float: left;
+    cursor: pointer;
+}
+.list li p{
+    float: left;
+    font-size: 14px;
+}
+.list li .del{
+    float: right;
+    margin-right: 5px;
+    line-height: 20px;
+    cursor: pointer;
+    font-size:14px;
+    color:red;
+}
+.btns{
+    width: 100%;
+    height: 50px;
+}
+.btns>button{
+    padding: 5px 8px;
+    float: right;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    margin:0 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.btns>button:first-child{
+    margin-right: 0;
+}
+.checked{
+    background: #008ed0;
+    color: #FFFFFF;
+}
+.red{
+    background: #07b6f5;
+}
